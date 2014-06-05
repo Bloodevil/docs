@@ -10,6 +10,9 @@ the following command::
 
      git clone https://github.com/mongodb/docs.git
      cd docs/
+     virtualenv .env
+     . .env/bin/activate
+     pip install -r requirements.txt
      python bootstrap.py
      make html
 
